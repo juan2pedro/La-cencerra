@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    background-color: white;
 }
 
 .sobre {
@@ -229,4 +230,107 @@ footer {
 
 .barrafooter {
     margin-top: 90px;
+}
+
+.card-subtitle,
+.card-title {
+    font-weight: 400;
+}
+
+.card-title {
+    font-size: .875rem;
+    color: #495057;
+}
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 0 0.875rem 0 rgba(33, 37, 41, .05);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-header:first-child {
+    border-radius: .25rem .25rem 0 0;
+}
+
+.card-header {
+    border-bottom-width: 1px;
+}
+
+.pb-0 {
+    padding-bottom: 0!important;
+}
+
+.card-header {
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pinBoot {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.white-panel {
+    position: absolute;
+    background: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+
+/*
+stylize any heading tags withing white-panel below
+*/
+
+.white-panel h1 {
+    font-size: 1em;
+}
+
+.white-panel h1 a {
+    color: #A92733;
+}
+
+.white-panel:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
