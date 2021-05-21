@@ -1,4 +1,3 @@
-//made by vipul mirajkar thevipulm.appspot.com
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -49,7 +48,6 @@ window.onload = function() {
             new TxtType(elements[i], JSON.parse(toRotate), period);
         }
     }
-    // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
@@ -65,31 +63,6 @@ $(document).ready(function() {
     });
 });
 
-/*
-Ref:
-Thanks to:
-http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Style-Grid-Layout-Pinterest-Grid.html
-*/
-
-
-/*
-    Pinterest Grid Plugin
-    Copyright 2014 Mediademons
-    @author smm 16/04/2014
-    
-    usage:
-    
-     $(document).ready(function() {
-    
-        $('#blog-landing').pinterest_grid({
-            no_columns: 4
-        });
-    
-    });
-    
-    
-*/
-;
 (function($, window, document, undefined) {
     var pluginName = 'pinterest_grid',
         defaults = {
