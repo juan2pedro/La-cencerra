@@ -28,12 +28,10 @@ body {
 
 .menu {
     background-color: #035335;
-    ;
 }
 
 .col12 {
     background-color: #035335;
-    ;
 }
 
 section {
@@ -95,7 +93,7 @@ ul-foot li .fa {
     font-size: 40px;
     color: #262626;
     line-height: 80px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 ul-foot li a {
@@ -106,7 +104,7 @@ ul-foot li a {
     background-color: #fff;
     text-align: center;
     transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0, 0);
-    transition: .5s;
+    transition: 0.5s;
     box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
 }
 
@@ -118,7 +116,7 @@ ul-foot li a::before {
     height: 100%;
     width: 20px;
     background: #b1b1b1;
-    transition: .5s;
+    transition: 0.5s;
     transform: rotate(0deg) skewY(-45deg);
 }
 
@@ -130,7 +128,7 @@ ul-foot li a::after {
     height: 20px;
     width: 100%;
     background: #b1b1b1;
-    transition: .5s;
+    transition: 0.5s;
     transform: rotate(0deg) skewX(-45deg);
 }
 
@@ -209,7 +207,7 @@ footer {
         height: 20px;
         width: 100%;
         background: #b1b1b1;
-        transition: .5s;
+        transition: 0.5s;
         transform: rotate(0deg) skewX(-45deg);
     }
     ul-foot li a {
@@ -220,16 +218,18 @@ footer {
         background-color: #fff;
         text-align: center;
         transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0, 0);
-        transition: .5s;
+        transition: 0.5s;
         box-shadow: -20px 20px 10px rgb(0 0 0 / 50%);
     }
     .barrafooter {
         margin-top: 50px;
+        background-color: #035335;
     }
 }
 
 .barrafooter {
     margin-top: 90px;
+    background-color: #035335;
 }
 
 .card-subtitle,
@@ -238,13 +238,13 @@ footer {
 }
 
 .card-title {
-    font-size: .875rem;
+    font-size: 0.875rem;
     color: #495057;
 }
 
 .card {
     margin-bottom: 24px;
-    box-shadow: 0 0 0.875rem 0 rgba(33, 37, 41, .05);
+    box-shadow: 0 0 0.875rem 0 rgba(33, 37, 41, 0.05);
 }
 
 .card {
@@ -256,7 +256,7 @@ footer {
     background-color: #fff;
     background-clip: initial;
     border: 0 solid transparent;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
 }
 
 .card-body {
@@ -265,7 +265,7 @@ footer {
 }
 
 .card-header:first-child {
-    border-radius: .25rem .25rem 0 0;
+    border-radius: 0.25rem 0.25rem 0 0;
 }
 
 .card-header {
@@ -273,7 +273,7 @@ footer {
 }
 
 .pb-0 {
-    padding-bottom: 0!important;
+    padding-bottom: 0 !important;
 }
 
 .card-header {
@@ -323,7 +323,7 @@ stylize any heading tags withing white-panel below
 }
 
 .white-panel h1 a {
-    color: #A92733;
+    color: #a92733;
 }
 
 .white-panel:hover {
